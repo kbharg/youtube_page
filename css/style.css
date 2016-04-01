@@ -270,7 +270,11 @@ padding:1.5em;
 .footer{
 	background: white;
 	padding-left: 20px;
+	border-top: .5px solid lightgray;
 
+}
+.topfooter {
+	border-bottom: .5px solid lightgray;
 }
 .topfooter img{
 	max-width: 100px;
@@ -284,4 +288,7 @@ padding:1.5em;
 	margin-left: 10px;
 	font-size: 80%;
 	padding: 5px 7px;
+}
+.botfooter p{
+padding-left: 20px;
 }
