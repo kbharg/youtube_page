@@ -154,11 +154,12 @@ background: white;
 	margin-left: 50px;
 	padding-top: 4px;
 	display: inline-block;
+	margin-top: -8px;
 }
 
  .header #lines{
 	display: inline-block;
-	
+	color: grey;
 }
 
  .header #youtube{
@@ -175,9 +176,11 @@ background: white;
 .header  #youtube #tube{
 	display: inline-block;
 	padding-left: 3px;
-	border: 1px solid red;
+	border: 1px solid #E62117;
 	background-color: #E62117;
 	color:white;
+	width: 70px;
+	padding-left: 6px;
 	border-radius: 10px;
 	padding-right: 8px;
 	margin-left: 4px;
@@ -201,8 +204,9 @@ background: white;
 	border: 1px solid #B9B9B9;
 	margin-left: -5px;
 	padding-top: 4px;
-	margin-top: 17px;
+	margin-top: 9px;
 	height: 30px;
+	color: grey;
 	vertical-align: top;
 	width: 60px;
 	background-color: #eee;
@@ -217,10 +221,10 @@ background: white;
 	margin-left: 180px;
 	border: 1px solid #C6C6C6;
 	vertical-align: top;
-	margin-top: -15px;
+	margin-top: -17px;
 	width: 68px;
-	height: 45px
-	padding-top: 20px;
+	height: 34px;
+	padding-top: 5px;
 	padding-left: 10px;
 	background-color: #F0F0F0;
 	color: #5A5A5A;
