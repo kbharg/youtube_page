@@ -42,9 +42,21 @@ body {
 	width: auto;
 	display: inline-block;
 	/*outline: 1px dashed green;*/
-	vertical-align: top;
+	vertical-align: middle;
 	margin-left:0.5em;
 	margin-top: -9px;
+}
+.left .userInfo .userSubby .subscribeButton span{
+	vertical-align: top;
+}
+.left .userInfo .userSubby .subscribeButton {
+	vertical-align: middle;
+}
+.left .userInfo .userSubby .subscribers {
+    border: 0.5px solid lightgray;
+    border-radius: 3px;
+    padding-right: 6px;
+	background: rgb(246,246,246);
 }
 .left .userInfo .rightie {
     vertical-align: top;
@@ -66,6 +78,7 @@ body {
 }
 .left .userInfo .numSubscribe {
 	display: inline-block;
+	color: #7F7F7F;
 }
 .left .userInformation {
 	border-bottom:1px solid #999999;
