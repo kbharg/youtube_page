@@ -267,3 +267,13 @@ padding:1.5em;
 }
 
 
+
+/* start of footer*/
+.footer{
+	background: white;
+	padding-left: 20px;
+
+}
+.topfooter img{
+	max-width: 100px;
+}
