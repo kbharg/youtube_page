@@ -1,3 +1,57 @@
 
 
 /*# sourceMappingURL=style.css.map */
+.header{
+	height: 60px;
+	/*background-color: yellow;*/
+
+}
+
+#left_header{
+	margin-left: 50px;
+	padding-top: -1px;
+	display: inline-block;
+}
+/*.fafa-bars {
+	width: 50px;
+}*/
+#lines{
+	display: inline-block;
+}
+
+#youtube{
+	display: inline-block;
+	font-size: 4px;
+
+}
+
+#youtube h3{
+	padding-left: 10px;
+	display: inline-block;
+}
+
+#tube{
+	display: inline-block;
+	padding-left: 3px;
+	border: 1px solid red;
+	background-color: #E62117;
+	font-color:white;
+	border-radius: 10px;
+	padding-right: 8px;
+	margin-left: 4px;
+
+}
+
+#center_content{
+
+	display: inline-block;
+	border: 1px solid red;
+	margin-left: 100px;
+	padding-top: 10px;
+	height: 35px;
+	width: 550px;
+}
+
+#search{
+	display: inline-block;
+}
