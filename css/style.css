@@ -73,6 +73,7 @@ body {
 /*border:1px solid black;*/
 padding:1.5em;
 border-bottom: .5px solid lightgray;
+
 }
 #right_top_banner{
 /*border:1px solid black;*/
@@ -93,7 +94,20 @@ display: inline-block;
 display: inline-block;
 margin-left: 250px;
 }
+.i{
+background: gray;
+color: white;
+border-radius: 10px;
+width: 13px;
+height: 13px;
+text-align: center;
+line-height:75%;
+padding-top: 1.5px;
+font-weight: bold;
+display: inline-block;
 
+
+}
 .realated_content{
 
 /*border:1px solid black;*/
@@ -141,6 +155,10 @@ margin: 0px;
 background: white;
 }
 
+.right_bottom{
+
+padding:1.5em;
+}
 /*end of right colum*/
 
 
@@ -212,4 +230,5 @@ background: white;
 .header #right_content{
 	display: inline-block;
 }
+
 
