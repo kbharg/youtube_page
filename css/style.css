@@ -40,6 +40,42 @@
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+#right_top{
+border:1em solid black;
+}
+#right_top_banner{
+border:1em solid black;
+}
+
+#upnext{
+border:1em solid black;
+}
+
+#autoplay{
+
+border:1em solid black;
+}
+
+.realated_content{
+
+border:1em solid black;
+}
+
+.left_video_box{
+border:1em solid black;
+}
+
+.timer{
+
+	border:1em solid black;
+}
+
+.vide_ifno{
+
+	border:1em solid black;
+}
 .header{
 	height: 60px;
 	/*background-color: yellow;*/
