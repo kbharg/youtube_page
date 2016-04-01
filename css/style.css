@@ -152,7 +152,7 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	height: 4em;
-	width: 27em;
+	width: 83%;
 	resize: none;
 }
 .left .comments .postComment .triangleComment {
@@ -164,7 +164,27 @@ body {
 	border-color: transparent #7F7F7F transparent transparent;
 	margin-right: -5px;
 }
-
+.left .comments .commentButtons {
+	margin-top: 10px;
+	float: right;
+	margin-right: 0.5%;
+}
+.left .comments .commentButtons .comButt {
+	border-radius: 2px;
+	box-shadow: none;
+	border: 0 none;
+	font-size: 0.8em;
+	padding: 5px 11px;
+}
+.left .comments .commentButtons .cancel {
+	background: rgb(246,246,246);
+	border: 1px solid rgb(201,201,201);
+}
+.left .comments .commentButtons .post {
+	background: rgb(21,102,188);
+	color: white;
+	margin-left: 5px;
+}
 /*# sourceMappingURL=style.css.map */
 
 
