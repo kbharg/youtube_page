@@ -231,6 +231,8 @@ display: inline-block;
 
 
 }
+
+
 .realated_content{
 
 /*border:1px solid black;*/
@@ -242,6 +244,8 @@ display: inline-block;
 display: inline-block;
 vertical-align: top;
 margin-top: 3px;
+position: relative;
+/*background:black;*/
 }
 
 .left_video_box img{
@@ -255,8 +259,31 @@ display: inline-block;
 
 	/*border:1px solid black;*/
 	display: inline-block;
+	position: absolute;
+	top:0;
+	padding-top: 45px;
+	color: lightgray;
+	margin-left: 95px;
+	font-size: 12px;
+
+	
+
 }
 
+.timer1{
+	border:1px solid black;
+	display: inline-block;
+	position:absolute;
+	top:0;
+	/*margin-left: 95px;
+	
+*/
+
+
+
+
+	
+}
 .video_info{
 
 	/*border:1px solid black;*/
@@ -266,12 +293,14 @@ display: inline-block;
 font-size: 1em;
 font-weight: bold;
 margin: 0px 0px 2px 0px;
-
+/*display: inline-block;
+*/
 }
 
 .video_info p{
 font-size: .75em;
 margin: 0px;
+/*display: inline-block;*/
 }
 
 .right{
@@ -282,6 +311,11 @@ background: white;
 
 padding:1.5em;
 }
+
+
+
+
+
 /*end of right colum*/
 
 
