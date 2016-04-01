@@ -48,11 +48,17 @@
 	border: 1px solid red;
 	margin-left: 100px;
 	padding-top: 5px;
-	height: 35px;
+	height: 30px;
+	padding-bottom: 20px;
 	width: 550px;
 }
 
 #search{
 	display: inline-block;
-	padding-left: 10px;
+	padding-left: 0px;
+	margin-left: -5px;
+	padding-top: 10px;
+	height: 30px;
+
+	border: 1px solid red;
 }
