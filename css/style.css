@@ -2,15 +2,21 @@ body {
 	background: #F1F1F1;
 }
 .container {
-	margin-top: 10px;
+	margin-top: 1.7em;
 }
 /*Howard's CSS Section*/
 .left div#video {
 	height: 24em;
 	/*width: 36em;*/
-	border: 1px solid black;
 	display: block;
-	background: black;
+	background: transparent;
+}
+.left #video iframe {
+	width: 100%;
+	height: 100%;
+}
+.left .userInformation h2 {
+	margin-bottom:1em;
 }
 .left .userInfo {
 	background: white;
@@ -19,33 +25,44 @@ body {
 	display: inline-block;
 	vertical-align: top;
 }
+.left .userInfo .userSubby {
+    margin-top: -18px;
+    margin-bottom: 0px;
+}
 .left .userInfo .userSubby .userPic {
 	height: 4em;
 	width: 4em;
 	display: inline-block;
 	outline: 1px dashed red;
 	vertical-align: top;
+	margin-bottom: 18px;
 }
 .left .userInfo .userSubby .nameAndStuff {
 	height: 4em;
 	width: auto;
 	display: inline-block;
-	outline: 1px dashed green;
+	/*outline: 1px dashed green;*/
 	vertical-align: top;
 	margin-left:0.5em;
+	margin-top: -9px;
 }
 .left .userInfo .rightie {
-	vertical-align: top;
-	display: inline-block;
-	height: 4em;
-	width: 7em;
-	float: right;
-    padding-top: 2.3em;
+    vertical-align: top;
+    display: inline-block;
+    height: 2.7em;
+    width: 7em;
+    float: right;
+    padding-top: 0.9em;
     border-bottom: 2px solid blue;
     margin-right: 1em;
+    font-size: 1.5em;
+    text-align: right;
 }
 .left .userInfo .subscribeButton {
 	display: inline-block;
+	background: red;
+	color: white;
+	padding: 0.25em;
 }
 .left .userInfo .numSubscribe {
 	display: inline-block;
@@ -55,15 +72,119 @@ body {
 	margin: 10px;
 }
 .left .videoButtons {
-	height: 2em;
+	height: 2.3em;
 }
 .left .vidBBs {
 	margin: 10px;
 }
-.left .fa.fa-plus {
+.left .fa {
 	font-size: 1.5em;
 }
+.left .vidButt {
+	display: inline-block;
+	margin-right: 1.5em;
+	color: #7F7F7F;
+}
+.left .likes {
+	float: right;
+}
+.left .likes .likedislike {
+	display: inline-block;
+	color: #7F7F7F;
+	margin-left: 0.5em;
+	font-size: 0.9em;
+}
+.left .description {
+	background: white;
+	margin-top: 10px;
+	padding: 10px;
+}
+.left .biggie {
+	margin: 10px;
+    border-bottom: 1px solid #CCCCCC;
+}
+.catcat {
+    width: auto;
+    /*outline: 1px dashed green;*/
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0.9em;
+}
+.catcat2 {
+    width: auto;
+    display: inline-block;
+    /*outline: 1px dashed red;*/
+    font-size: 0.9em;
+    margin-left: 1em;
+}
+.left .smalls {
+	text-align: center;
+}
 
+.left .comments {
+	padding: 20px;
+	background: white;
+	margin-top: 15px;
+}
+.left .comments .commentHead h5 {
+	display: inline-block;
+}
+.left .comments .commentHead .i {
+    display: inline-block;
+    font-size: 0.25em;
+    padding-top: 16.5px;
+    text-align: center;
+    height: 30px;
+    width: 10px;
+    /* border: 1px dashed blue; */
+    vertical-align: top;
+}
+.left .comments .postComment .image img {
+	height: 4em;
+	width: 4em;
+	outline: 1px dashed blue;
+}
+.left .comments .postComment .image {
+	display: inline-block;
+	vertical-align: top;
+}
+.left .comments #postComment {
+	display: inline-block;
+	vertical-align: top;
+	height: 4em;
+	width: 83%;
+	resize: none;
+}
+.left .comments .postComment .triangleComment {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 20px 20px 0;
+	border-color: transparent #7F7F7F transparent transparent;
+	margin-right: -5px;
+}
+.left .comments .commentButtons {
+	margin-top: 10px;
+	float: right;
+	margin-right: 0.5%;
+}
+.left .comments .commentButtons .comButt {
+	border-radius: 2px;
+	box-shadow: none;
+	border: 0 none;
+	font-size: 0.8em;
+	padding: 5px 11px;
+}
+.left .comments .commentButtons .cancel {
+	background: rgb(246,246,246);
+	border: 1px solid rgb(201,201,201);
+}
+.left .comments .commentButtons .post {
+	background: rgb(21,102,188);
+	color: white;
+	margin-left: 5px;
+}
 /*# sourceMappingURL=style.css.map */
 
 
@@ -94,7 +215,7 @@ display: inline-block;
 display: inline-block;
 margin-left: 250px;
 }
-.i{
+.right .i{
 background: gray;
 color: white;
 border-radius: 10px;
