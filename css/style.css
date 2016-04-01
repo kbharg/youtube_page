@@ -34,9 +34,44 @@
 	height: 7em;
 	width: 17em;
 }
-=======
 
 /*# sourceMappingURL=style.css.map */
+
+
+#right_top{
+border:1em solid black;
+}
+#right_top_banner{
+border:1em solid black;
+}
+
+#upnext{
+border:1em solid black;
+}
+
+#autoplay{
+
+border:1em solid black;
+}
+
+.realated_content{
+
+border:1em solid black;
+}
+
+.left_video_box{
+border:1em solid black;
+}
+
+.timer{
+
+	border:1em solid black;
+}
+
+.vide_ifno{
+
+	border:1em solid black;
+}
 .header{
 	height: 60px;
 	background-color: white;
@@ -91,11 +126,13 @@
 
  .header #search{
 	display: inline-block;
-	padding-left: 10px;
+	padding-left: 20px;
 	border: 1px solid #B9B9B9;
 	margin-left: -5px;
-	padding-top: 14px;
+	padding-top: 4px;
+	margin-top: 17px;
 	height: 30px;
+	vertical-align: top;
 	width: 60px;
 
 }
@@ -104,5 +141,3 @@
 	display: inline-block;
 }
 
-
->>>>>>> 8bf4a4224c4d2d4c35fd415a9622bff81643aff9
