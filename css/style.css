@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 /*Howard's CSS Section*/
 .left div#video {
 	height: 24em;
@@ -13,28 +12,32 @@
 	vertical-align: top;
 }
 .left .userInfo .userSubby .userPic {
-	height: 7em;
-	width: 7em;
+	height: 4em;
+	width: 4em;
 	display: inline-block;
 	outline: 1px dashed red;
 	vertical-align: top;
 }
 .left .userInfo .userSubby .nameAndStuff {
-	height: 7em;
+	height: 4em;
 	width: auto;
 	display: inline-block;
 	outline: 1px dashed green;
 	vertical-align: top;
-	padding: 10px;
 }
 .left .userInfo .rightie {
 	outline: 1px dashed blue;
 	vertical-align: top;
 	display: inline-block;
-	height: 7em;
-	width: 17em;
+	height: 4em;
+	width: 21.3em;
 }
-=======
+.left .userInfo .subscribeButton {
+	display: inline-block;
+}
+.left .userInfo .numSubscribe {
+	display: inline-block;
+}
 
 /*# sourceMappingURL=style.css.map */
 .header{
@@ -91,4 +94,3 @@
 #search{
 	display: inline-block;
 }
->>>>>>> 8bf4a4224c4d2d4c35fd415a9622bff81643aff9
