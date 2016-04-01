@@ -33,9 +33,11 @@ body {
 	height: 4em;
 	width: 4em;
 	display: inline-block;
-	outline: 1px dashed red;
 	vertical-align: top;
 	margin-bottom: 18px;
+}
+.userPic img{
+	max-width: 100%
 }
 .left .userInfo .userSubby .nameAndStuff {
 	height: 4em;
