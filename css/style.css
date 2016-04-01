@@ -7,10 +7,13 @@ body {
 /*Howard's CSS Section*/
 .left div#video {
 	height: 24em;
-	width: 36em;
+	/*width: 36em;*/
 	border: 1px solid black;
 	display: block;
 	background: black;
+}
+.left .userInfo {
+	background: white;
 }
 .left .userInfo .leftie {
 	display: inline-block;
@@ -29,19 +32,36 @@ body {
 	display: inline-block;
 	outline: 1px dashed green;
 	vertical-align: top;
+	margin-left:0.5em;
 }
 .left .userInfo .rightie {
-	outline: 1px dashed blue;
 	vertical-align: top;
 	display: inline-block;
 	height: 4em;
-	width: 21.3em;
+	width: 7em;
+	float: right;
+    padding-top: 2.3em;
+    border-bottom: 2px solid blue;
+    margin-right: 1em;
 }
 .left .userInfo .subscribeButton {
 	display: inline-block;
 }
 .left .userInfo .numSubscribe {
 	display: inline-block;
+}
+.left .userInformation {
+	border-bottom:1px solid #999999;
+	margin: 10px;
+}
+.left .videoButtons {
+	height: 2em;
+}
+.left .vidBBs {
+	margin: 10px;
+}
+.left .fa.fa-plus {
+	font-size: 1.5em;
 }
 
 /*# sourceMappingURL=style.css.map */
