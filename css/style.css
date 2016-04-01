@@ -39,6 +39,7 @@
 /*# sourceMappingURL=style.css.map */
 .header{
 	height: 60px;
+	background-color: white;
 
 }
 
@@ -100,7 +101,7 @@
 }
 
 .header #right_content{
-	
+	display: inline-block;
 }
 
 
