@@ -1,3 +1,35 @@
 
-
-/*# sourceMappingURL=style.css.map */
+/*Howard's CSS Section*/
+.left div#video {
+	height: 24em;
+	width: 36em;
+	border: 1px solid black;
+	display: block;
+	background: black;
+}
+.left .userInfo .leftie {
+	display: inline-block;
+	vertical-align: top;
+}
+.left .userInfo .userSubby .userPic {
+	height: 7em;
+	width: 7em;
+	display: inline-block;
+	outline: 1px dashed red;
+	vertical-align: top;
+}
+.left .userInfo .userSubby .nameAndStuff {
+	height: 7em;
+	width: auto;
+	display: inline-block;
+	outline: 1px dashed green;
+	vertical-align: top;
+	padding: 10px;
+}
+.left .userInfo .rightie {
+	outline: 1px dashed blue;
+	vertical-align: top;
+	display: inline-block;
+	height: 7em;
+	width: 17em;
+}
