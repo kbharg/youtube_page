@@ -112,6 +112,12 @@ body {
 	margin-left: 0.5em;
 	font-size: 0.9em;
 }
+.likedVideo {
+	color: #0080FF;
+}
+.dislikedVideo {
+	color: #FF6666;
+}
 .left .description {
 	background: white;
 	margin-top: 10px;
@@ -120,6 +126,7 @@ body {
 .left .biggie {
 	margin: 10px;
     border-bottom: 1px solid #CCCCCC;
+    overflow: hidden;
 }
 .catcat {
     width: auto;
@@ -137,6 +144,9 @@ body {
 }
 .left .smalls {
 	text-align: center;
+}
+.left .smalls:hover {
+	cursor: pointer;
 }
 
 .left .comments {
