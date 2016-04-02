@@ -682,3 +682,14 @@ visibility: hidden;
 	width: 56px;
 	height:56px;
 }
+.comment.reply {
+	margin-left: 5em;
+}
+.image2 {
+	display: inline-block;
+	vertical-align: top;
+}
+.image2 img{
+	width: 30px;
+	height: 30px;
+}
