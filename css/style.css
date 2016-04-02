@@ -162,7 +162,7 @@ body {
 .left .comments .postComment .image img {
 	height: 4em;
 	width: 4em;
-	outline: 1px dashed blue;
+	/*outline: 1px dashed blue;*/
 }
 .left .comments .postComment .image {
 	display: inline-block;
@@ -213,7 +213,7 @@ body {
 .left .comments .comment .image img {
 	height: 4em;
 	width: 4em;
-	outline: 1px dashed #FF0000;
+	/*outline: 1px dashed #FF0000;*/
 	vertical-align: top;
 }
 .left .comments .comment .image  {
@@ -267,8 +267,9 @@ body {
 
 #right_top{
 /*border:1px solid black;*/
-
+padding: .5em .5em 1em .5em;
 border-bottom: .5px solid lightgray;
+margin-bottom: .5em
 
 }
 #right_top_banner{
@@ -344,10 +345,11 @@ display: inline-block;
 	display: inline-block;
 	position: absolute;
 	top:0;
-	padding-top: 45px;
+	margin-top: 45px;
 	color: lightgray;
 	margin-left: 95px;
 	font-size: 12px;
+	background-color: black;
 
 	
 
@@ -391,7 +393,7 @@ background: white;
 }
 
 .right_bottom{
-
+padding: .5em;
 
 }
 
@@ -630,4 +632,8 @@ visibility: hidden;
 }
 .right_bottom a{
 	margin: 0px;
+}
+.class img {
+	width: 56px;
+	height:56px;
 }
