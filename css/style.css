@@ -420,14 +420,14 @@ height: 4em;
 	display: inline-block;
 	width: 70%;
 	margin: auto;
-	border: 1px solid #999999;
+	border: 1px solid lightgray;
 	height: 2em;
     border-radius: 3px 0 0 3px;
 }
 .header .search .searchButton {
 	width: 4em;
     text-align: center;
-    border: 1px solid #999999;
+    border: 1px solid lightgray;
 	display: inline-block;
     margin-left: -5px;
     height: 2em;
@@ -436,10 +436,11 @@ height: 4em;
     border-radius: 0 3px 3px 0;
 }
 .header .right {
+	vertical-align: middle;
 	display: inline-block;
 	float: right;
-	padding-top: 1em;
-	padding-right: 1em;
+	padding-top: 1.2em;
+	padding-right: 2em;
 }
 .header .right .userPhoto {
 	/*border: 1px dashed green;*/
@@ -447,6 +448,21 @@ height: 4em;
 	width: 2em;
 	height: 2em;
 }
+.header .right i {
+	margin: 0 1em;
+	font-size: 1.5em;
+	color: lightgray;
+}
+.header .right i:hover {
+	color: #7F7F7F;
+	cursor: pointer;
+}
+.header .right .upload {
+	border: 1px solid lightgray;
+	border-radius: 2px;
+	background: rgb(246,246,246);
+}
+
 
 /*end of right colum*/
 
