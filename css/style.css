@@ -524,7 +524,6 @@ padding:1.5em;
 .botfooter p{
 padding-left: 20px;
 }
-/*/* SLIDE THREE
 .slideThree {
 	width: 80px;
 	height: 26px;
@@ -598,7 +597,7 @@ padding-left: 20px;
 .slideThree input[type=checkbox]:checked + label {
 	left: 43px;
 }
-<<<<<<< HEAD
+
 
 input[type=checkbox]{
 visibility: hidden;
@@ -625,6 +624,4 @@ border:1px solid black;
 .botfoooter li:hover{
 	color: #16A3DE;
 }
-=======
-*/
 
