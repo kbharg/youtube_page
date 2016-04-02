@@ -321,9 +321,6 @@ padding-top: 1.5px;
 font-weight: bold;
 display: inline-block;
 
-
-
-
 }
 
 
@@ -393,6 +390,7 @@ margin: 0px;
 
 .right{
 background: white;
+
 }
 
 .right_bottom{
@@ -450,7 +448,7 @@ height: 4em;
 	display: inline-block;
 	float: right;
 	padding-top: 1.2em;
-	padding-right: 2em;
+	padding-right: 9em;
 }
 .header .right .userPhoto {
 	/*border: 1px dashed green;*/
@@ -466,6 +464,7 @@ height: 4em;
 .header .right i:hover {
 	color: #7F7F7F;
 	cursor: pointer;
+
 }
 .header .right .upload {
 	border: 1px solid lightgray;
