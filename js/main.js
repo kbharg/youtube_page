@@ -37,11 +37,11 @@ $(document).ready(function() {
 
 
 	$('.like').on('click', function() {
-		$(this).addClass('likedVideo');
+		$(this).toggleClass('likedVideo');
 		$(this).siblings().removeClass('dislikedVideo');
 	})
 	$('.dislike').on('click', function() {
-		$(this).addClass('dislikedVideo');
+		$(this).toggleClass('dislikedVideo');
 		$(this).siblings().removeClass('likedVideo');
 	})
 
