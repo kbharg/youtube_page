@@ -112,6 +112,12 @@ body {
 	margin-left: 0.5em;
 	font-size: 0.9em;
 }
+.likedVideo {
+	color: #0080FF;
+}
+.dislikedVideo {
+	color: #FF6666;
+}
 .left .description {
 	background: white;
 	margin-top: 10px;
@@ -120,6 +126,7 @@ body {
 .left .biggie {
 	margin: 10px;
     border-bottom: 1px solid #CCCCCC;
+    overflow: hidden;
 }
 .catcat {
     width: auto;
@@ -137,6 +144,9 @@ body {
 }
 .left .smalls {
 	text-align: center;
+}
+.left .smalls:hover {
+	cursor: pointer;
 }
 
 .left .comments {
@@ -683,6 +693,26 @@ padding-left: 20px;
 input[type=checkbox]{
 visibility: hidden;
 }
+
+#show_more{
+display: inline-block;
+width: 100%;
+border-top: .5px solid lightgray;
+padding-bottom: 20px;
+
+}
+
+#show_more a{
+
+padding-left: 150px;
+font-size: 11px;
+color:  gray;
+font-weight: bold;
+opacity: 1;
+text-decoration: none;
+}
+
+
 .botfoooter li{
 	display: inline-block;
 	color: black;
