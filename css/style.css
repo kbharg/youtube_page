@@ -395,7 +395,7 @@ padding: .5em;
 .header {
 height: 4em;
     background: white;
-    padding: 0em;
+    padding-left: 1em;
     position: fixed;
     top: 0;
     left: 0;
@@ -405,14 +405,41 @@ height: 4em;
 .header .left img {
 	height: 5em;
 }
+.header .left .logo {
+	margin-top: -6px;
+}
 .header .left {
 	display: inline-block;
 }
 .header .search {
 	display: inline-block;
+	width: 61%;
+	margin-left: 3%;
+}
+.header .search input {
+	display: inline-block;
+	width: 70%;
+	margin: auto;
+	border: 1px solid #999999;
+	height: 2em;
+    border-radius: 3px 0 0 3px;
+}
+.header .search .searchButton {
+	width: 4em;
+    text-align: center;
+    border: 1px solid #999999;
+	display: inline-block;
+    margin-left: -5px;
+    height: 2em;
+    vertical-align: top;
+    padding-top: 3px;
+    border-radius: 0 3px 3px 0;
 }
 .header .right {
 	display: inline-block;
+	float: right;
+	padding-top: 1em;
+	padding-right: 1em;
 }
 .header .right .userPhoto {
 	/*border: 1px dashed green;*/
