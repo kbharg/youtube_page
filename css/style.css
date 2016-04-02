@@ -6,8 +6,7 @@ body {
 }
 .nameAndStuff a, .right_bottom  a, #right_top a {
 	color: black;
-}
-/*Howard's CSS Section*/
+}/*Howard's CSS Section*/
 .left div#video {
 	height: 24em;
 	/*width: 36em;*/
@@ -144,10 +143,13 @@ body {
 	background: white;
 	margin-top: 15px;
 }
+.left .comment {
+	margin-top: 3em;
+}
 .left .comments .commentHead h5 {
 	display: inline-block;
 }
-.left .i {
+.left  .i {
     display: inline-block;
     font-size: 0.25em;
     padding-top: 16.5px;
@@ -221,6 +223,42 @@ body {
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 12px;
+}
+.left .commentRight .nameRow span {
+	margin-left: 15px;
+}
+.left .commentRight .likedislike {
+	margin-left:10px;
+}
+.left .commentRight .like:hover {
+	color: #333333;
+	cursor:pointer;
+}
+.left .commentRight .dislike:hover {
+	color: #333333;
+	cursor:pointer;
+}
+.left .commentRight .replyButton:hover {
+	color: #333333;
+	cursor:pointer;
+}
+.left .commentRight .replyRow {
+	font-size: 0.9em;
+}
+.left .commentRight .i {
+	padding-top:9px;
+}
+.left .replyRow {
+	color:#B3B3B3;
+}
+.left .replyRow:hover {
+	color:#808080;
+}
+.left .likeCount {
+	color: blue;
+}
+.reply {
+	
 }
 /*# sourceMappingURL=style.css.map */
 
