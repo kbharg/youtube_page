@@ -4,6 +4,9 @@ body {
 .container {
 	margin-top: 1.7em;
 }
+.nameAndStuff a, .right_bottom  a, #right_top a {
+	color: black;
+}
 /*Howard's CSS Section*/
 .left div#video {
 	height: 24em;
@@ -141,13 +144,10 @@ body {
 	background: white;
 	margin-top: 15px;
 }
-.left .comment {
-	margin-top: 3em;
-}
 .left .comments .commentHead h5 {
 	display: inline-block;
 }
-.left  .i {
+.left .i {
     display: inline-block;
     font-size: 0.25em;
     padding-top: 16.5px;
@@ -222,42 +222,6 @@ body {
 	vertical-align: top;
 	margin-left: 12px;
 }
-.left .commentRight .nameRow span {
-	margin-left: 15px;
-}
-.left .commentRight .likedislike {
-	margin-left:10px;
-}
-.left .commentRight .like:hover {
-	color: #333333;
-	cursor:pointer;
-}
-.left .commentRight .dislike:hover {
-	color: #333333;
-	cursor:pointer;
-}
-.left .commentRight .replyButton:hover {
-	color: #333333;
-	cursor:pointer;
-}
-.left .commentRight .replyRow {
-	font-size: 0.9em;
-}
-.left .commentRight .i {
-	padding-top:9px;
-}
-.left .replyRow {
-	color:#B3B3B3;
-}
-.left .replyRow:hover {
-	color:#808080;
-}
-.left .likeCount {
-	color: blue;
-}
-.reply {
-	
-}
 /*# sourceMappingURL=style.css.map */
 
 
@@ -272,6 +236,9 @@ border-bottom: .5px solid lightgray;
 #right_top_banner{
 /*border:1px solid black;*/
 display: inline-block;
+width: 100%;
+margin-bottom: 10px;
+
 
 
 }
@@ -286,8 +253,12 @@ display: inline-block;
 
 /*border:1px solid black;*/
 display: inline-block;
-margin-left: 250px;
+margin-left: 215px;
+
 }
+
+
+
 .right .i{
 background: gray;
 color: white;
@@ -299,6 +270,8 @@ line-height:75%;
 padding-top: 1.5px;
 font-weight: bold;
 display: inline-block;
+
+
 
 
 }
@@ -320,7 +293,8 @@ position: relative;
 }
 
 .left_video_box img{
-max-width: 120px;
+width: 120px;
+height: 67.5px;
 display: inline-block;
 
 
@@ -418,20 +392,23 @@ padding:1.5em;
 	padding-left: 10px;
 	display: inline-block;
 }
-
-.header  #youtube #tube{
-	display: inline-block;
-	/*padding-left: 3px;*/
-	/*border: 1px solid #E62117;*/
-	/*background-color: #E62117;*/
-	/*color:white;*/
-	/*width: 70px;*/
-	/*padding-left: 6px;*/
-	/*border-radius: 10px;*/
-	/*padding-right: 8px;*/
-	/*margin-left: 4px;*/
-
+#youtube img {
+	width: 80px;
 }
+
+/*.header  #youtube #tube{
+	display: inline-block;
+	padding-left: 3px;
+	border: 1px solid #E62117;
+	background-color: #E62117;
+	color:white;
+	width: 70px;
+	padding-left: 6px;
+	border-radius: 10px;
+	padding-right: 8px;
+	margin-left: 4px;
+
+}*/
 
 .header #center_content{
 
@@ -458,13 +435,9 @@ padding:1.5em;
 	background-color: #eee;
 
 }
-#youtube img{
-	width: 50px;
-}
 
 .header #right_content{
 	display: inline-block;
-	float: right;
 }
 .header #right_content #upload{
 	display: inline-block;
@@ -503,6 +476,7 @@ padding:1.5em;
 	background: white;
 	padding-left: 20px;
 	border-top: .5px solid lightgray;
+	margin-top: 6em;
 
 }
 .topfooter {
@@ -525,10 +499,11 @@ padding:1.5em;
 padding-left: 20px;
 }
 .slideThree {
-	width: 80px;
-	height: 26px;
-	background: #333;
-	margin: 20px auto;
+	width: 55px;
+	height: 20px;
+	background: lightgray;
+	display: inline-block;
+	
 
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
@@ -538,33 +513,21 @@ padding-left: 20px;
 	-webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
 	-moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
 	box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255,255,255,0.2);
+	
 }
 
 .slideThree:after {
-	content: 'OFF';
-	font: 12px/26px Arial, sans-serif;
-	color: #000;
-	position: absolute;
-	right: 10px;
-	z-index: 0;
-	font-weight: bold;
-	text-shadow: 1px 1px 0px rgba(255,255,255,.15);
+	
 }
 
 .slideThree:before {
-	content: 'ON';
-	font: 12px/26px Arial, sans-serif;
-	color: #00bf00;
-	position: absolute;
-	left: 10px;
-	z-index: 0;
-	font-weight: bold;
+	
 }
 
 .slideThree label {
 	display: block;
-	width: 34px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
 
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
@@ -580,13 +543,7 @@ padding-left: 20px;
 	top: 3px;
 	left: 3px;
 	z-index: 1;
-
-	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
-	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
-	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
-	background: #fcfff4;
-
-	background: -webkit-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
+	background: -webkit-linear-gradient(top, white 0%, white 40%, white 100%);
 	background: -moz-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
 	background: -o-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
 	background: -ms-linear-gradient(top, #fcfff4 0%, #dfe5d7 40%, #b3bead 100%);
@@ -594,27 +551,14 @@ padding-left: 20px;
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#b3bead',GradientType=0 );
 }
 
+
 .slideThree input[type=checkbox]:checked + label {
 	left: 43px;
-}
 
+}
 
 input[type=checkbox]{
 visibility: hidden;
-}
-
-
-
-.checkmark{
-border:1px solid black;
-}
-#youtube img{
-	width: 80px;
-	margin-bottom: 10px;
-	
-}
-.botfooter {
-	display: inline-block;
 }
 .botfoooter li{
 	display: inline-block;
