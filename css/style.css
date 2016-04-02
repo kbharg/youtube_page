@@ -536,6 +536,28 @@ background: white;
 .botfooter p{
 padding-left: 20px;
 }
+.botfooter .botfooterTop li {
+	display: inline-block;
+	margin-right: 10px;
+}
+.botfooter .botfooterTop {
+	padding-left: 1em;
+	margin-top: 1em;
+}
+.botfooter .botfooterBottom {
+	padding-left: 1em;
+}
+.botfooter .botfooterBottom li {
+	display: inline-block;
+	margin-right: 8px;
+}
+.botfooter .botfooterTop li a{
+	color: black;
+}
+.botfooter .botfooterBottom li a{
+	color: #666666;
+	font-size: 0.75em;
+}
 .slideThree {
 	width: 55px;
 	height: 20px;
