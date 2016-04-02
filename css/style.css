@@ -622,7 +622,7 @@ padding-left: 20px;
 	font-size: 0.75em;
 }
 .slideThree {
-	width: 55px;
+	width: 60px;
 	height: 20px;
 	background: lightgray;
 	display: inline-block;
@@ -648,7 +648,7 @@ padding-left: 20px;
 }
 
 .slideThree label {
-	display: block;
+	display: inline-block;
 	width: 15px;
 	height: 15px;
 
@@ -663,7 +663,7 @@ padding-left: 20px;
 	transition: all .4s ease;
 	cursor: pointer;
 	position: absolute;
-	top: 3px;
+	top: 2px;
 	left: 3px;
 	z-index: 1;
 	background: -webkit-linear-gradient(top, white 0%, white 40%, white 100%);
