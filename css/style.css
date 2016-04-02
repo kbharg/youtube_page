@@ -1,8 +1,9 @@
 body {
 	background: #F1F1F1;
+	margin-top: 1em;
 }
 .container {
-	margin-top: 1.7em;
+	margin-top: 5.7em;
 }
 .nameAndStuff a, .right_bottom  a, #right_top a {
 	color: black;
@@ -360,14 +361,6 @@ display: inline-block;
 	display: inline-block;
 	position:absolute;
 	top:0;
-	/*margin-left: 95px;
-	
-*/
-
-
-
-
-	
 }
 .video_info{
 
@@ -397,17 +390,44 @@ padding: .5em;
 
 }
 
+/*THIS IS THE FUCKING HEADER, DONT MESS*/
 
-
-
+.header {
+height: 4em;
+    background: white;
+    padding: 0em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index:3000;
+}
+.header .left img {
+	height: 5em;
+}
+.header .left {
+	display: inline-block;
+}
+.header .search {
+	display: inline-block;
+}
+.header .right {
+	display: inline-block;
+}
+.header .right .userPhoto {
+	/*border: 1px dashed green;*/
+	border-radius: 1000px;
+	width: 2em;
+	height: 2em;
+}
 
 /*end of right colum*/
 
 
-.header{
+/*.header{
 	height: 60px;
 	background-color: white;
-
+	padding-top: 1em;
 }
 
 .header  #left_header{
@@ -415,6 +435,7 @@ padding: .5em;
 	padding-top: 4px;
 	display: inline-block;
 	margin-top: -8px;
+	vertical-align: top;
 }
 
  .header #lines{
@@ -425,7 +446,6 @@ padding: .5em;
  .header #youtube{
 	display: inline-block;
 	font-size: 4px;
-
 }
 
 .header #youtube h3{
@@ -434,7 +454,7 @@ padding: .5em;
 }
 #youtube img {
 	width: 80px;
-}
+}*/
 
 /*.header  #youtube #tube{
 	display: inline-block;
@@ -467,7 +487,6 @@ padding: .5em;
 	border: 1px solid #B9B9B9;
 	margin-left: -5px;
 	padding-top: 4px;
-	margin-top: 9px;
 	height: 30px;
 	color: grey;
 	vertical-align: top;
@@ -481,7 +500,6 @@ padding: .5em;
 }
 .header #right_content #upload{
 	display: inline-block;
-	margin-left: 180px;
 	border: 1px solid #C6C6C6;
 	vertical-align: top;
 	margin-top: -17px;
