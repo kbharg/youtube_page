@@ -35,12 +35,11 @@ $(document).ready(function() {
 		}
 	})
 
-
-	$('.like').on('click', function() {
+	$(document).on('click','.like', function() {
 		$(this).toggleClass('likedVideo');
 		$(this).siblings().removeClass('dislikedVideo');
 	})
-	$('.dislike').on('click', function() {
+	$(document).on('click','.dislike', function() {
 		$(this).toggleClass('dislikedVideo');
 		$(this).siblings().removeClass('likedVideo');
 	})
