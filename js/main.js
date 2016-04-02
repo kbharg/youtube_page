@@ -1,7 +1,7 @@
 function postComment() {
 	$('.post').on('click', function() {
 		console.log('post');
-	}
+	};
 }
 
 $(document).ready(function() {
