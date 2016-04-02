@@ -47,9 +47,21 @@ body {
 	width: auto;
 	display: inline-block;
 	/*outline: 1px dashed green;*/
-	vertical-align: top;
+	vertical-align: middle;
 	margin-left:0.5em;
 	margin-top: -9px;
+}
+.left .userInfo .userSubby .subscribeButton span{
+	vertical-align: top;
+}
+.left .userInfo .userSubby .subscribeButton {
+	vertical-align: middle;
+}
+.left .userInfo .userSubby .subscribers {
+    border: 0.5px solid lightgray;
+    border-radius: 3px;
+    padding-right: 6px;
+	background: rgb(246,246,246);
 }
 .left .userInfo .rightie {
     vertical-align: top;
@@ -71,6 +83,7 @@ body {
 }
 .left .userInfo .numSubscribe {
 	display: inline-block;
+	color: #7F7F7F;
 }
 .left .userInformation {
 	border-bottom:1px solid #999999;
@@ -189,6 +202,25 @@ body {
 	background: rgb(21,102,188);
 	color: white;
 	margin-left: 5px;
+}
+.left .commentsStart {
+	border-top: 1px solid lightgray;
+	margin-top: 3.5em;
+	padding-top: 3.5em;
+}
+.left .comments .comment .image img {
+	height: 4em;
+	width: 4em;
+	outline: 1px dashed #FF0000;
+	vertical-align: top;
+}
+.left .comments .comment .image  {
+	display: inline-block;
+}
+.left .commentRight {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 12px;
 }
 /*# sourceMappingURL=style.css.map */
 
