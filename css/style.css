@@ -4,9 +4,6 @@ body {
 .container {
 	margin-top: 1.7em;
 }
-.nameAndStuff a, .right_bottom  a, #right_top a {
-	color: black;
-}
 /*Howard's CSS Section*/
 .left div#video {
 	height: 24em;
@@ -144,10 +141,13 @@ body {
 	background: white;
 	margin-top: 15px;
 }
+.left .comment {
+	margin-top: 3em;
+}
 .left .comments .commentHead h5 {
 	display: inline-block;
 }
-.left .comments .commentHead .i {
+.left  .i {
     display: inline-block;
     font-size: 0.25em;
     padding-top: 16.5px;
@@ -222,6 +222,42 @@ body {
 	vertical-align: top;
 	margin-left: 12px;
 }
+.left .commentRight .nameRow span {
+	margin-left: 15px;
+}
+.left .commentRight .likedislike {
+	margin-left:10px;
+}
+.left .commentRight .like:hover {
+	color: #333333;
+	cursor:pointer;
+}
+.left .commentRight .dislike:hover {
+	color: #333333;
+	cursor:pointer;
+}
+.left .commentRight .replyButton:hover {
+	color: #333333;
+	cursor:pointer;
+}
+.left .commentRight .replyRow {
+	font-size: 0.9em;
+}
+.left .commentRight .i {
+	padding-top:9px;
+}
+.left .replyRow {
+	color:#B3B3B3;
+}
+.left .replyRow:hover {
+	color:#808080;
+}
+.left .likeCount {
+	color: blue;
+}
+.reply {
+	
+}
 /*# sourceMappingURL=style.css.map */
 
 
@@ -284,8 +320,7 @@ position: relative;
 }
 
 .left_video_box img{
-width: 120px;
-height: 67.5px;
+max-width: 120px;
 display: inline-block;
 
 
@@ -464,7 +499,6 @@ padding:1.5em;
 	background: white;
 	padding-left: 20px;
 	border-top: .5px solid lightgray;
-	margin-top: 6em;
 
 }
 .topfooter {
@@ -486,15 +520,11 @@ padding:1.5em;
 .botfooter p{
 padding-left: 20px;
 }
-
-
-
-
-/*/* SLIDE THREE*/
+/*/* SLIDE THREE
 .slideThree {
-	width: 45px;
-	height: 15px;
-	background: lightgray;
+	width: 80px;
+	height: 26px;
+	background: #333;
 	margin: 20px auto;
 
 	-webkit-border-radius: 50px;
@@ -508,30 +538,30 @@ padding-left: 20px;
 }
 
 .slideThree:after {
-	/*content: 'OFF';
-	font: 12px/26px Arial, sans-serif;*/
-	/*color: #red;
+	content: 'OFF';
+	font: 12px/26px Arial, sans-serif;
+	color: #000;
 	position: absolute;
 	right: 10px;
-	z-index: 0;*/
-	/*font-weight: bold;*/
-	/*text-shadow: 1px 1px 0px rgba(255,255,255,.15);*/
+	z-index: 0;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px rgba(255,255,255,.15);
 }
 
 .slideThree:before {
-	/*content: 'ON';
-	font: 12px/26px Arial, sans-serif;*/
-	/*color: #00bf00;
+	content: 'ON';
+	font: 12px/26px Arial, sans-serif;
+	color: #00bf00;
 	position: absolute;
 	left: 10px;
 	z-index: 0;
-	font-weight: bold;*/
+	font-weight: bold;
 }
 
 .slideThree label {
 	display: block;
-	width: 10px;
-	height: 10px;
+	width: 34px;
+	height: 20px;
 
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
@@ -564,13 +594,4 @@ padding-left: 20px;
 .slideThree input[type=checkbox]:checked + label {
 	left: 43px;
 }
-
-input[type=checkbox]{
-visibility: hidden;
-}
-
-
-
-.checkmark{
-border:1px solid black;
-}
+*/
