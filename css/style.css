@@ -200,6 +200,25 @@ body {
 	color: white;
 	margin-left: 5px;
 }
+.left .commentsStart {
+	border-top: 1px solid lightgray;
+	margin-top: 3.5em;
+	padding-top: 3.5em;
+}
+.left .comments .comment .image img {
+	height: 4em;
+	width: 4em;
+	outline: 1px dashed #FF0000;
+	vertical-align: top;
+}
+.left .comments .comment .image  {
+	display: inline-block;
+}
+.left .commentRight {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 12px;
+}
 /*# sourceMappingURL=style.css.map */
 
 
