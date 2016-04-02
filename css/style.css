@@ -267,7 +267,7 @@ body {
 
 #right_top{
 /*border:1px solid black;*/
-padding:1.5em;
+
 border-bottom: .5px solid lightgray;
 
 }
@@ -392,7 +392,7 @@ background: white;
 
 .right_bottom{
 
-padding:1.5em;
+
 }
 
 
@@ -606,4 +606,6 @@ visibility: hidden;
 .botfoooter li:hover{
 	color: #16A3DE;
 }
-
+.right_bottom a{
+	margin: 0px;
+}
