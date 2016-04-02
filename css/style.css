@@ -712,3 +712,34 @@ visibility: hidden;
 #topcomment {
 	margin-left: 0px;
 }
+.dropdown {
+	width: 10px;
+	display: inline-block;
+	margin-right: .5em;
+}
+.dropdown button{
+	background-color: white;
+	border: none;
+	width: 10px;
+}
+.dropdown button:hover{
+	background-color: white;
+	border:none;
+}
+.dropdown ul{
+	background-color: white;
+}
+.fa.fa-bars {
+	color: lightgrey;
+	font-size: 94%;
+}
+.fa.fa-bars:hover{
+	color: #808080;
+}
+.button.btn.btn-link.dropdown-toggle{
+	background: white;
+}
+.dropdown-menu ul:hover{
+	background-color: black;
+
+}
